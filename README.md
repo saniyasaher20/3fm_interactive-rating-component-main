@@ -34,7 +34,7 @@ Mobile - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/
 ### Links
 
 - Solution URL: https://github.com/saniyasaher20/3fm_interactive-rating-component-main
-- Live Site URL: 
+- Live Site URL: https://saniyasaher20.github.io/3fm_interactive-rating-component-main/
 
 ## My process
 
@@ -65,6 +65,28 @@ Mobile - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/
       pointer-events: none;
     }
     ```
+
+4- How to deploy react to github pages
+   ```terminal
+   npm i gh-pages --save-dev
+   ```
+
+   ```Package.json
+   {
+  "homepage": "http://username.github.io/repository_name", //Add this line
+  "name": "solution", // already present lines
+  "version": "0.1.0", // already present lines
+  }
+
+  "scripts": {
+    "start": "react-scripts start", // already present lines
+    "predeploy": "npm run build", //Add this line
+    "deploy": "gh-pages -d build", //Add this line
+    "build": "react-scripts build", // already present lines
+    "test": "react-scripts test", // already present lines
+    "eject": "react-scripts eject" // already present lines
+  },
+   ```
 
 ### Useful resources
 
