@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/3fm_interactive-rating-component-main/static/css/main.1433fd01.css",
+    "main.js": "/3fm_interactive-rating-component-main/static/js/main.74efe763.js",
+    "static/media/illustration-thank-you.svg": "/3fm_interactive-rating-component-main/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/3fm_interactive-rating-component-main/index.html",
+    "static/media/icon-star.svg": "/3fm_interactive-rating-component-main/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.1433fd01.css.map": "/3fm_interactive-rating-component-main/static/css/main.1433fd01.css.map",
+    "main.74efe763.js.map": "/3fm_interactive-rating-component-main/static/js/main.74efe763.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1433fd01.css",
+    "static/js/main.74efe763.js"
+  ]
+}
