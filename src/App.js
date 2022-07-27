@@ -6,10 +6,10 @@ import thanks from "./images/illustration-thank-you.svg"
 function App() {
 
   const [isSubmitted, setIsSubmitted] = useState(false)
-  const[items, setItems] = useState("")
+  const [items, setItems] = useState("")
 
   const Button = ({ number }) => {
-    return <button onClick={()=> setItems(number)} type="button" className="btn"><span>{number}</span></button>
+    return <button onClick={() => setItems(number)} type="button" className="btn"><span>{number}</span></button>
   }
   const Card = () => {
     return (<div className="card">
@@ -47,7 +47,7 @@ function App() {
   );
 }
 
-const ThankYou = ({items, setIsSubmitted }) => {
+const ThankYou = ({ items, setIsSubmitted }) => {
   return (
     <div className="card">
       <div className="card-body text-center">
@@ -58,7 +58,7 @@ const ThankYou = ({items, setIsSubmitted }) => {
         <h2 className="card-title">Thank You</h2>
         <small className="card-text">We appreciate you taking the time to give a rating. If you ever need more support,
           don’t hesitate to get in touch!</small></div>
-      <a onClick={() => setIsSubmitted(false)}  href="#" className="btn submit--btn text-uppercase d-block">Rate Again</a>
+      <a onClick={() => setIsSubmitted(false)} href="#" className="btn submit--btn text-uppercase d-block">Rate Again</a>
 
     </div>
   )
