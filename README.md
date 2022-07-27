@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop - 
+Desktop - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/blob/ff7073362d4790276d593cc0fed90869f72fa4e4/design/solution-screenshot-desktop.JPG
 
-Mobile - 
+Mobile - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/blob/ff7073362d4790276d593cc0fed90869f72fa4e4/design/solution-screenshot-mobile.JPG
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/saniyasaher20/3fm_interactive-rating-component-main
 - Live Site URL: 
 
 ## My process
@@ -47,12 +47,29 @@ Mobile -
 - ReactJS
 
 ### What I learned
+1- Working in ReactJs. Link in given in 'Useful resources'
+2- How to add SCSS in ReactJS. Link in given in 'Useful resources'
+    ```html
+    npm i sass
+    then import the scss file in the required file
+    import './main.scss'
+    ```
+3- How to remove focus from an element on double clicking
+    ```css
+    .btn{
+      cursor: pointer;
+      ...other propertires
+    }
 
+    .btn:focus, .btn:active{
+      pointer-events: none;
+    }
+    ```
 
 ### Useful resources
 
 - (https://youtu.be/JXr5QCEH8VE) - This helped me completng this challenge using ReactJS
-- (https://stackoverflow.com/a/39528275) - This helped me learning how to remove focus on a button after second click.
+- (https://stackoverflow.com/a/39528275) - This helped me learning how to remove focus from a button after second click.
 
 ## Author
 
