@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/blob/ff7073362d4790276d593cc0fed90869f72fa4e4/design/solution-screenshot-desktop.JPG
+[Desktop](https://github.com/saniyasaher20/3fm_interactive-rating-component-main/blob/ff7073362d4790276d593cc0fed90869f72fa4e4/design/solution-screenshot-desktop.JPG)
 
-Mobile - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/blob/ff7073362d4790276d593cc0fed90869f72fa4e4/design/solution-screenshot-mobile.JPG
+[Mobile](https://github.com/saniyasaher20/3fm_interactive-rating-component-main/blob/ff7073362d4790276d593cc0fed90869f72fa4e4/design/solution-screenshot-mobile.JPG)
 
 ### Links
 
-- Solution URL: https://github.com/saniyasaher20/3fm_interactive-rating-component-main
-- Live Site URL: https://saniyasaher20.github.io/3fm_interactive-rating-component-main/
+- [Solution](https://github.com/saniyasaher20/3fm_interactive-rating-component-main)
+- [Live Site URL](https://saniyasaher20.github.io/3fm_interactive-rating-component-main)
 
 ## My process
 
@@ -48,12 +48,14 @@ Mobile - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/
 
 ### What I learned
 1- Working in ReactJs. Link in given in 'Useful resources'
+
 2- How to add SCSS in ReactJS. Link in given in 'Useful resources'
     ```html
     npm i sass
     then import the scss file in the required file
     import './main.scss'
     ```
+
 3- How to remove focus from an element on double clicking
     ```css
     .btn{
@@ -63,8 +65,7 @@ Mobile - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/
 
     .btn:focus, .btn:active{
       pointer-events: none;
-    }
-    ```
+    }```
 
 4- How to deploy react to github pages
    ```terminal
@@ -87,6 +88,8 @@ Mobile - https://github.com/saniyasaher20/3fm_interactive-rating-component-main/
     "eject": "react-scripts eject" // already present lines
   },
    ```
+### Continued development
+The form should not submit without selecting rating. Also the button is focused after double clicking but it should be focused in single click and on second click the focus should be removed.
 
 ### Useful resources
 

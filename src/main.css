@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  background-color: hsl(216deg, 12%, 8%);
+  min-height: calc(100vh - 0.1px);
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background: linear-gradient(120deg, hsl(213deg, 19%, 18%), hsl(216deg, 12%, 8%));
+  max-width: 30rem;
+  border-radius: 20px;
+  padding: 1.5rem 1.5rem;
+}
+.card .card--img-wrapper {
+  background-color: #323c49;
+  border-radius: 100px;
+  width: 20px;
+  padding: 1.5rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.card .card--img-wrapper img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card .card-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.card .card-text {
+  margin-bottom: 0;
+  color: hsl(216deg, 12%, 54%);
+}
+.card .submit--btn {
+  border: none;
+  border-radius: 100px;
+  background-color: hsl(25deg, 97%, 53%);
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card .submit--btn:hover, .card .submit--btn:active, .card .submit--btn:focus {
+  color: hsl(25deg, 97%, 53%);
+  background-color: white;
+}
+.card .rating--group {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.card .rating--group .btn {
+  background-color: #323c49;
+  color: hsl(217deg, 12%, 63%);
+  padding: 1.5rem;
+  border-radius: 100px;
+  position: relative;
+  border: none;
+}
+.card .rating--group .btn:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: white;
+}
+.card .rating--group .btn:active, .card .rating--group .btn:focus {
+  background-color: hsl(217deg, 12%, 63%);
+  color: white;
+}
+.card .rating--group .btn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0;
+}
+.card .rating-selected {
+  margin: 2rem auto;
+  background-color: #323c49;
+  display: inline-block;
+  padding: 0.38rem 1.2rem;
+  border-radius: 100px;
+  color: hsl(25deg, 97%, 53%);
+  line-height: 1em;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 0 3%;
+  }
+  .card-title {
+    font-size: 25px !important;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=main.css.map */
